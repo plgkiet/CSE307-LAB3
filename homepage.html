@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/Users/phamlegiakiet/Desktop/CSE307/Pham Le Gia Kiet_2131200037_Lab 1/CSE307_LAB3/css_homepage.css">
+</head>
+<body>
+    <header>
+        <div id="logo">        
+            <img src="file:///Users/phamlegiakiet/Desktop/lab3/logoABCbook.png" style="height: 100px; width: 300px">     
+        </div>
+        <div id="login">
+            <i class="fa fa-user-circle-o" aria-hidden="true"></i><a href="login.html"><b>Log in</b></a>
+            <a href="registration.html"><b>Registration</b></a>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="#"><b>Cart</b></a>
+        </div>
+    </header>
+    <nav> 
+        <div id="menu">
+            <a href="homepage.html" ><b>HOME PAGE</b></a>
+            <span> | </spa>
+            <a href="#"><b>INTRODUCTION</b></a>
+            <span> | </spa>
+            <a href="#"><b>CONTACT</b></a>
+        </div>
+        <div id="form">
+                <input type="text" placeholder="Enter the title of the book..." style="width: 200px; height: 20px;">
+                <button name="Find Book" type="submit" value="Submit"> Find Books</button>  
+        </div>
+    </nav>
+    <main>
+        <div id = "a">
+                <h2>BOOKS BY SUBJECTS</h2>
+                <aside>
+                    <ul id="a" style=" color: black;">
+                        <li><a href="#">Foreign Language</a></li>
+                        <li><a href="#">Information Technology</a></li>
+                        <li><a href="#">Law</a></li>
+                        <li><a href="#">Literature</a></li>
+                        <li><a href="#">Science and Technology</a></li>
+                        <li><a href="#">Agriculture</a></li>
+                        <li><a href="#">History of Geography</a></li>
+                        <li><a href="#">Economics</a></li>
+                        <li><a href="#">Listen to the song</a></li>
+                    </ul>
+                </aside>
+        </div>
+        <div id="b">
+            <h2>BOOKS BY PUBLISHERS</h2>
+            <aside>
+                    <ul id="b" style="color: black;">
+                        <li><a href="#">Young Publishers</a></li>
+                        <li><a href="#">Statistics Pulishing House</a></li>
+                        <li><a href="#">Bronze Needle</a></li>
+                        <li><a href="#">National University</a></li>
+                        <li><a href="#">Artistic Craft Culture</a></li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">History of Geography</a></li>
+                        <li><a href="#">Labor-Society</a></li>
+                        <li><a href="#">Science & Engineering</a></li>
+                    </ul>
+            </aside>
+        </div>
+        <div id="c">
+            <aside>
+                <h3>IT Basic Curriculumn</h3>
+                <img src="https://2learner.edu.vn/media/textbooks/THCB.Final1-1.png" style="height: 250px; width: 200px;">
+                <p>Price: <span style="color: red; font-size: 18px;">26.000 VND<span></p>
+                <button type="button">
+                    <img src="https://yeutinhdau.com/wp-content/uploads/2017/03/icon-dat-mua.png" style="height: 30px; width: 100px;">
+                </button> 
+            </aside>
+        </div>
+        <div id="d">
+            <h2>BESTSELLER</h2>
+            <marquee direction="up" scrollamount="10" scrolldelay="10" onmousemove="stop()" onmouseout="start()"><p><a href="#"><img src="https://m.media-amazon.com/images/I/61ASc4NxA+L._AC_UF1000,1000_QL80_.jpg" style="height: 250px; width: 200px;">English For Tech</a></p></marquee>
+            <marquee direction="up" scrollamount="10" scrolldelay="10" onmousemove="stop()" onmouseout="start()"><p><a href="#"><img src="https://m.media-amazon.com/images/I/71Vvhh9v62L._AC_UF1000,1000_QL80_.jpg" style="height: 250px; width: 200px;">BARC Computer Science</a></p></marquee>
+            <marquee direction="up" scrollamount="10" scrolldelay="10" onmousemove="stop()" onmouseout="start()"><p><a href="#"><img src="file:///Users/phamlegiakiet/Downloads/Practice%204/img_Practice3/Davinci.png" style="height: 250px; width: 200px;">The Davinci Code</a></p></marquee>
+            <marquee direction="up" scrollamount="10" scrolldelay="10" onmousemove="stop()" onmouseout="start()"><p><a href="#"><img src="file:///Users/phamlegiakiet/Downloads/Practice%204/img_Practice3/harrypotter.png" style="height: 250px; width: 200px;">Harry Potter</a></p></marquee>
+        </div> 
+        <div id="e">
+            <h3>THE WEBSITE LINKS</h3>
+                    <select name="links" style="width: 250px; font-size: 15px;" onchange="window.open(this.value, '_blank')">
+                        <option selected="selected">--- Select the linking page ---</option>
+                        <a href="https://lib.eiu.edu.vn/" target="_blank"><option>https://lib.eiu.edu.vn/</option></a>
+                        <a href="https://eiu.edu.vn/" target="_blank"><option>https://eiu.edu.vn/</option></a>
+                    </select>
+        </div>
+    </main>
+    <footer>
+        <h3>ACCESS STATISTICS</h3>
+        <P><B>Total Access: 500</B></P>
+        <P><B>Online: 3</B></P>
+        <p>Ⓒ2016 - ABC Bookstore. Allright Reserved</p>
+        <p>Website is developed to be used as a hands-on exercise in Web Programming</p>
+        <p>Email: abcbookstore@gmail.com</p>
+    </footer>
+</body>

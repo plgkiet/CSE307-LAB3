@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    border: 1px springgreen;
+    background-color: white;
+    width: 1490px;
+    height: 102px;
+}
+header div#logo {
+    float:  left;
+}
+header div#login {
+    float: right;
+    position: relative;
+    top: 80px;
+    right: 10px;
+}
+nav {
+    clear: both;
+    border: 1px solid black; /* Use 'solid' for the border style */
+    background-color: #99FF99	;
+    width: auto;
+    height: 25px;
+}
+
+div#menu { /* Corrected the selector */
+    float: left;
+}
+div#menu a{
+    color: red;
+    text-decoration: none;
+}
+
+div#form {
+    float: right;
+}
+
+div#a {
+    line-height: 30px;
+}
+  
+div#b {
+    line-height: 30px;
+}
+
+div#c {
+    line-height: 30px;
+    padding: 10px;
+    background: #7FFFD4;
+}
+
+div#d {
+    line-height: 30px;
+}
+  
+div#e {
+    line-height: 30px;
+    padding: 10px;
+    background: aqua;
+
+}
+  
+  
+
+#a {
+    background: #008080;
+    padding: 10px;
+    list-style-type: disc; 
+}
+
+
+#b {
+    background: #CC6666;
+    padding: 10px;
+    list-style-type: disc; 
+}
+
+footer {
+    line-height: 20px;
+    padding: 10px;
+    background: #0099CC;
+    
+}
